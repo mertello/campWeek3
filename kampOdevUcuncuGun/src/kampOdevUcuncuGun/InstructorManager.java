@@ -1,6 +1,6 @@
 package kampOdevUcuncuGun;
 
-public class InstructorManager {
+public class InstructorManager extends UserManager {
 	
 	public void add(Instructor instructor) {
 		System.out.println(instructor.getInstructorName() + " instructor added.");
